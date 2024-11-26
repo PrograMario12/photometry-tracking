@@ -1,0 +1,24 @@
+// Sobrescribe las variables de Bootstrap antes de importar Bootstrap
+$primary: #28a745; // Cambia el color primario
+$secondary: #33c1ff; // Cambia el color secundario
+$success: #28a745; // Cambia el color de éxito
+$info: #17a2b8; // Cambia el color de información
+$warning: #ffc107; // Cambia el color de advertencia
+$danger: #dc3545; // Cambia el color de peligro
+$light: #f8f9fa; // Cambia el color claro
+$dark: #343a40; // Cambia el color oscuro
+
+$body-color: #343a40; // Color del texto principal
+$text-muted: #6c757d; // Color del texto atenuado
+
+// Importa Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Header.scss
+.nav-link {
+    color: #fff; // Cambia este color al que desees
+    &:hover {
+      color: #000; // Cambia este color al que desees para el hover
+    }
+}
+
